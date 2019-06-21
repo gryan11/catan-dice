@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
+    var audioPlayer: AVAudioPlayer?
+    
     var resetInd:Int = 30;
     var rollInd:Int = 36;
+    
     
     var rolls:[(Int, Int)] = [];
 
@@ -27,6 +31,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        do {
+            if let fileURL = Bundle.main.path(forResource: "roll2", ofType: "m4a") {
+                audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: fileURL))
+                audioPlayer?.setVolume(1.0, fadeDuration: 0.1)
+            } else {
+                print("No file with specified name exists")
+            }
+        } catch let error {
+            print("Can't play the audio file failed with an error \(error.localizedDescription)")
+        }
     }
 
     @IBOutlet weak var Die1: UILabel!
@@ -36,6 +51,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var Die3: UILabel!
     
     @IBAction func roll_button(_ sender: Any) {
+        
+        audioPlayer?.setVolume(1.0, fadeDuration: 0.1)
+        audioPlayer?.play()
         
         if (rollInd > resetInd) {
         

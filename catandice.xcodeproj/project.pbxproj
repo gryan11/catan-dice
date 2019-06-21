@@ -10,6 +10,7 @@
 		94EC9A9322BD0C000009C7F7 /* die_roll_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94EC9A9222BD0C000009C7F7 /* die_roll_sound.mp3 */; };
 		94EC9A9522BD11150009C7F7 /* die_roll_short.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 94EC9A9422BD11150009C7F7 /* die_roll_short.m4a */; };
 		94EC9A9722BD11B20009C7F7 /* roll2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 94EC9A9622BD11B10009C7F7 /* roll2.m4a */; };
+		94EC9A9922BD17700009C7F7 /* two-dices.svg in Resources */ = {isa = PBXBuildFile; fileRef = 94EC9A9822BD17700009C7F7 /* two-dices.svg */; };
 		94FEA57822BBBC6500F21EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEA57722BBBC6500F21EF2 /* AppDelegate.swift */; };
 		94FEA57A22BBBC6500F21EF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEA57922BBBC6500F21EF2 /* ViewController.swift */; };
 		94FEA57D22BBBC6500F21EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FEA57B22BBBC6500F21EF2 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		94EC9A9222BD0C000009C7F7 /* die_roll_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = die_roll_sound.mp3; sourceTree = "<group>"; };
 		94EC9A9422BD11150009C7F7 /* die_roll_short.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = die_roll_short.m4a; sourceTree = "<group>"; };
 		94EC9A9622BD11B10009C7F7 /* roll2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = roll2.m4a; sourceTree = "<group>"; };
+		94EC9A9822BD17700009C7F7 /* two-dices.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "two-dices.svg"; sourceTree = "<group>"; };
 		94FEA57422BBBC6500F21EF2 /* catandice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catandice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FEA57722BBBC6500F21EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94FEA57922BBBC6500F21EF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				94FEA57922BBBC6500F21EF2 /* ViewController.swift */,
 				94FEA57B22BBBC6500F21EF2 /* Main.storyboard */,
 				94FEA57E22BBBC6500F21EF2 /* Assets.xcassets */,
+				94EC9A9822BD17700009C7F7 /* two-dices.svg */,
 				94EC9A9222BD0C000009C7F7 /* die_roll_sound.mp3 */,
 				94EC9A9422BD11150009C7F7 /* die_roll_short.m4a */,
 				94EC9A9622BD11B10009C7F7 /* roll2.m4a */,
@@ -135,6 +138,7 @@
 				94EC9A9322BD0C000009C7F7 /* die_roll_sound.mp3 in Resources */,
 				94FEA58222BBBC6500F21EF2 /* LaunchScreen.storyboard in Resources */,
 				94FEA57F22BBBC6500F21EF2 /* Assets.xcassets in Resources */,
+				94EC9A9922BD17700009C7F7 /* two-dices.svg in Resources */,
 				94FEA57D22BBBC6500F21EF2 /* Main.storyboard in Resources */,
 				94EC9A9522BD11150009C7F7 /* die_roll_short.m4a in Resources */,
 			);

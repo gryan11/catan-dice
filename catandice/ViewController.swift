@@ -50,13 +50,24 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var Die3: UILabel!
     
+    @IBOutlet weak var Roll: UIButton!
+    
     @IBAction func roll_button(_ sender: Any) {
         
         audioPlayer?.setVolume(1.0, fadeDuration: 0.1)
         audioPlayer?.play()
         
-        if (rollInd > resetInd) {
+        Roll.isEnabled = false;
         
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            // your code here
+            self.roll();
+        }
+    }
+    
+    func roll() {
+        if (rollInd > resetInd) {
+            
             rolls = resetRolls();
             rollInd = 0;
         }
@@ -66,6 +77,8 @@ class ViewController: UIViewController {
         Die3.text = String(Int.random(in: 1...12));
         
         rollInd += 1;
+        
+        Roll.isEnabled = true;
     }
     
     func shuffle(ap: [(Int, Int)]) -> [(Int, Int)] {

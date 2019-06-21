@@ -60,6 +60,7 @@
                         <outlet property="Die1" destination="doj-F9-YZP" id="bFH-2l-DMn"/>
                         <outlet property="Die2" destination="EHT-xx-lEG" id="mpN-Le-xri"/>
                         <outlet property="Die3" destination="2GX-tF-DXO" id="hde-Wt-Tdw"/>
+                        <outlet property="Roll" destination="s5G-aD-TRF" id="uog-26-Hjr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
